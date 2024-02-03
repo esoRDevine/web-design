@@ -1,0 +1,105 @@
+body {
+    background-color: #f3e5d8;
+}
+
+img {
+    border-radius: 25px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 479px) {
+    header img {
+        border-radius: 0;
+    }
+}
+
+.preparation-time {
+    background-color: #fff7fc;
+}
+
+.preparation-time,
+.ingredients,
+.instructions,
+.nutrition {
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: 'VVDS Rashfield Light', sans-serif; 
+    font-size: 2rem;
+    color: #6b2d45;
+}
+
+h2 {
+    font-family: 'Granada Serial Bold', sans-serif; 
+    color: #7d4532;
+}
+
+h3 {
+    font-family: 'Rams Bold', sans-serif;
+    color: #6b2d45;
+}
+
+.instructions ol li::marker {
+    color: #7d4532;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #000;
+    height: 50px;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+/* Container styles for desktop */
+@media (min-width: 480px) {
+    .container {
+        background-color: white;
+        padding: 2.5%;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 25px;
+    }
+
+    .preparation-time,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        padding: 2.5%;
+    }
+}
+
+/* Full screen styles for mobile */
+@media (max-width: 479px) {
+    .container {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    body {
+        background-color: white;
+    }
+
+
+    .preparation-time,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        padding: 0;
+    }
+}
