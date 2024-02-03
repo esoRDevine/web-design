@@ -29,18 +29,18 @@ header img {
 }
 
 h1 {
-    font-family: 'VVDS Rashfield Light', sans-serif; /* Apply the custom font to h1 */
-    font-size: 2rem; /* Adjust the font size as needed */
+    font-family: 'VVDS Rashfield Light', sans-serif; 
+    font-size: 2rem;
     color: #6b2d45;
 }
 
 h2 {
-    font-family: 'Granada Serial Bold', sans-serif; /* Apply the custom font to h2 */
+    font-family: 'Granada Serial Bold', sans-serif; 
     color: #7d4532;
 }
 
 h3 {
-    font-family: 'Rams Bold', sans-serif; /* Apply the custom font to h3 */
+    font-family: 'Rams Bold', sans-serif;
     color: #6b2d45;
 }
 
