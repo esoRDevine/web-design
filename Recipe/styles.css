@@ -1,9 +1,12 @@
 body {
     background-color: #f3e5d8;
 }
-
+p, td, li {
+    line-height: 1.5em;
+}
 img {
     border-radius: 25px;
+    width: 100%;
 }
 
 header img {
@@ -25,17 +28,17 @@ header img {
 .ingredients,
 .instructions,
 .nutrition {
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 h1 {
-    font-family: 'VVDS Rashfield Light', sans-serif; 
+    font-family: YoungSerif-Regular; 
     font-size: 2rem;
     color: #6b2d45;
 }
 
 h2 {
-    font-family: 'Granada Serial Bold', sans-serif; 
+    font-family: YoungSerif-Regular; 
     color: #7d4532;
 }
 
@@ -60,6 +63,11 @@ tr {
 
 tr:last-child {
     border-bottom: none;
+}
+/*fonts*/
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: url(./assets//fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
 /* Container styles for desktop */
@@ -87,7 +95,7 @@ tr:last-child {
     .container {
         background-color: white;
         margin: 0;
-        padding: 0;
+        padding: 0%;
         border-radius: 0;
     }
 
@@ -100,6 +108,6 @@ tr:last-child {
     .ingredients,
     .instructions,
     .nutrition {
-        padding: 0;
+        padding: 5%;
     }
 }
