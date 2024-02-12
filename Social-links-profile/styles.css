@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter-VariableFont_slnt;
+  src: url(./assets//fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.body-style,
+.profile-name,
+.profile-description,
+.profile-location,
+.social-link {
+  font-family: 'Inter-VariableFont_slnt', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+main {
+  background-color: black;
+  padding: 2.5%;
+  width: 100vw;
+  height: 100vh; 
+}
+
+.main-container {
+  background-color: #1F1F1F;
+  padding: 25px; /* Adjusted padding */
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: 0 auto;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+
+.profile-name {
+  color: white;
+  font-size: 20px;
+}
+
+.profile-img {
+  border-radius: 50%; 
+  width: 100px;
+  height: 100px;
+}
+
+.profile-description {
+  color: white;
+  font-size: small;
+}
+
+.profile-location {
+  color: #C4F82A;
+  font-size: 12px;
+}
+
+.social-link {
+  background-color: #413e3e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; /* Adjusted margin */
+  display: flex;
+  flex-grow: 1; 
+  height: 35px;
+}
+
+.social-link:hover {
+  cursor: pointer;
+  background-color: #C4F82A;
+}
+
+@media (max-width: 479px) { 
+  .main-container {
+    background-color: #1f1f1f;
+    width: 80%;
+    height: 70%;
+    position: fixed;
+    padding: 15px;
+  }
+
+}
